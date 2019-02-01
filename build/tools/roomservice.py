@@ -43,11 +43,11 @@ except ImportError:
 DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
-custom_local_manifest = ".repo/local_manifests/pixel.xml"
-custom_default_revision = "pie"
+custom_local_manifest = ".repo/local_manifests/simplix.xml"
+custom_default_revision = "o9x"
 custom_dependencies = "aosp.dependencies"
-org_manifest = "pixel-devices"  # leave empty if org is provided in manifest
-org_display = "PixelExperience-Devices"  # needed for displaying
+org_manifest = "simplixone-devices"  # leave empty if org is provided in manifest
+org_display = "simplixone-devices"  # needed for displaying
 
 github_auth = None
 

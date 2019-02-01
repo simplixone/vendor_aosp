@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= PixelExperience
+PRODUCT_BRAND ?= SimplixOne
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -139,10 +139,10 @@ PRODUCT_PACKAGES += \
 include vendor/aosp/config/branding.mk
 
 # OTA
-include vendor/aosp/config/ota.mk
+# include vendor/aosp/config/ota.mk
 
 # GApps
-include vendor/gapps/config.mk
+# include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
