@@ -144,6 +144,9 @@ include vendor/aosp/config/branding.mk
 # GApps
 # include vendor/gapps/config.mk
 
+# SimplixOne
+include vendor/simplix/config.mk
+
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
